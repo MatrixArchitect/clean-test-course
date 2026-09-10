@@ -1,3 +1,7 @@
+backend/.coverage
+backend/hangry_api/.coverage
+frontend/cypress/videos
+#my changes above this line
 node_modules/
 .DS_Store
 .npmcache
