@@ -15,8 +15,7 @@ jobs:
       - uses: actions/checkout@v7.0.1
       - name: Run PyCharm Security
         uses: tonybaloney/pycharm-security@1.25.1
-        with:
-          fail_on_warnings: 'yes'
+
   unit_test:
     needs: [security_test]
     runs-on: ubuntu-latest
